@@ -1,0 +1,142 @@
+/* global.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  
+  /* Set global font */
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* General container styling */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  /* Global box shadow for cards */
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #1a202c;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  
+  header a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #1a202c;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  footer a {
+    color: #4fd1c5;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Button styles */
+  button {
+    background-color: #3182ce;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2c5282;
+  }
+  
+  /* Input styles */
+  input, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Utilities */
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .mt-1 {
+    margin-top: 1rem;
+  }
+  
+  .mt-2 {
+    margin-top: 2rem;
+  }
+  
+  .mb-1 {
+    margin-bottom: 1rem;
+  }
+  
+  .mb-2 {
+    margin-bottom: 2rem;
+  }
+  
+  .pt-1 {
+    padding-top: 1rem;
+  }
+  
+  .pt-2 {
+    padding-top: 2rem;
+  }
+  
+  .pb-1 {
+    padding-bottom: 1rem;
+  }
+  
+  .pb-2 {
+    padding-bottom: 2rem;
+  }
+  
